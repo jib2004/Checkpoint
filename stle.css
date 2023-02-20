@@ -1,0 +1,42 @@
+body{
+    font-family: roboto;
+    background-color: black;
+    color: white;
+}
+
+body h1{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+header{
+    position: fixed;
+    left: 40%;
+    padding: 10px;
+    /* margin: 0 auto; */
+    width: max-content;
+}
+header nav{
+    display: inline-block;
+    margin-right: 20px;
+}
+header nav a{
+    text-decoration: none;
+    color: red;
+}
+
+header nav a:hover{
+    color: rgb(113, 12, 12);
+}
+
+.resume_image{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+#contact{
+    background-color: red;
+}
